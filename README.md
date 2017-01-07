@@ -1,2 +1,2 @@
-# wareki-python
+# wareki-python (β版)
 元号(年号)と和暦を表現するクラス。相互変換可能。
