@@ -55,7 +55,12 @@ _gengo_table = (
     {
         "name": "平成",
         "started": _datetime.date(1989, 1, 8),
-        "ended": None
+        "ended": _datetime.date(2019, 4, 30),
+    },
+    {
+        "name": "令和",
+        "started": _datetime.date(2019, 5, 1),
+        "ended": None,
     }
 )
 
@@ -133,6 +138,7 @@ M = Gengo('明治')
 T = Gengo('大正')
 S = Gengo('昭和')
 H = Gengo('平成')
+R = Gengo('令和')
 
 def _ad2gengo(year):
     return Gengo.from_date(_datetime.date(year, 12, 31))
